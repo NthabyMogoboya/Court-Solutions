@@ -23,7 +23,7 @@
   <div class="sidebar-heading"><h4>Crime Acts Solution</h4></div>
   <div class="list-group list-group-flush">
     <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
-    <a href="crime.php" class="list-group-item list-group-item-action">Report Crime</a>
+    <a href="crime.php" class="list-group-item list-group-item-action">Crime Categories</a>
    <a href="/victimprofile.php" class="list-group-item list-group-item-action">Profile</a>
     <a href="#" class="list-group-item list-group-item-action">Status</a>
   </div>
@@ -85,5 +85,7 @@
      </div> 
 </div>          
        </form> 
-</div>    
+</div>  
+
+
 </html> 

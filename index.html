@@ -41,7 +41,7 @@
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
 	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
+	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Crime Categories</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -58,13 +58,20 @@
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
             </h1>
-            <p><a href="Login.html" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.html" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">
+				Sign-In
+			  </button></a></p>
+			<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Registration">
+				Sign-Up
+			  </button></a></p>
           </div>
         </div>
       </div>
-    </div>
+	</div>
+	<!--  -->
+	
 
+	<!--  -->
     <section class="ftco-section ftco-no-pb services-section">
       <div class="container">
         <div class="row no-gutters d-flex">
@@ -328,6 +335,116 @@
     </footer>
     
   
+
+
+	<!-- Modal -->
+<!-- lunch button uses id as referrence -->
+<div class="modal fade" id="Registration" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+aria-hidden="true">
+<div class="modal-dialog modal-ls" role="document">
+	<div class="modal-content">
+		<div class="modal-header text-light justify-content-center">
+			<h5 class="modal-title ">C.A.S Registration</h5>
+		</div>
+		<form>
+			<div class="modal-body">
+
+				<div class="form-group">
+					<!-- <label>First Name</label> -->
+					<input type="text" formControlName="fname" required class="form-control"
+						placeholder="Enter Your First Name">
+				</div>
+
+				<div class="form-group">
+					<!-- <label>Last Name</label> -->
+					<input type="text" formControlName="lname" required class="form-control"
+						placeholder="Enter Your Last Name">
+				</div>
+
+
+				<div class="form-group">
+					<!-- <label>Email address</label> -->
+					<input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+						placeholder="Enter your Email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+						else.</small>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Password</label> -->
+							<input type="password" formControlName="pword" required class="form-control"
+								placeholder="Enter Secret Password">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<!-- <label>Confirm Password</label> -->
+							<input type="password" formControlName="pword2" required class="form-control"
+								placeholder="Re-enter Secret Password">
+						</div>
+					</div>
+				</div>
+
+
+			   
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="submit" class="btn " >Submit</button> 
+				<a class="btn btn-link" data-toggle="modal" data-target="#login">Login here</a> 
+				<!-- (click)="postApplication() -->
+			</div>
+		</form>
+	</div>
+</div>
+</div>
+
+<!-- Modal end -->
+
+<!-- Modal -->
+    <!-- lunch button uses id as referrence -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="icepRegisterUser"
+        aria-hidden="true">
+        <div class="modal-dialog modal-ls" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-light justify-content-center">
+                    <h5 class="modal-title ">C.A.S Login</h5>
+                </div>
+                <form>
+                    <div class="modal-body">
+    
+                        <div class="form-group">
+                            <!-- <label>Email address</label> -->
+                            <input type="email" formControlName="email" required class="form-control" aria-describedby="emailHelp"
+                                placeholder="Enter your Email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <!-- <label>Password</label> -->
+                                    <input type="password" formControlName="pword" required class="form-control"
+                                        placeholder="Enter Secret Password">
+                                </div>
+                            </div>
+                           
+                        </div>
+    
+    
+                       
+                    </div>
+                    
+                        <div class="modal-footer justify-content-center">
+                            <button type="submit" class="btn" >Login</button> 
+                            <!-- <a href="application">Apply For ICEP</a>  -->
+                        </div>           
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal end -->
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
