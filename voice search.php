@@ -26,24 +26,25 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<link href="css/main1.css" rel="stylesheet" />
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Crime Act Solutions</a>
+	      <a class="navbar-brand" href="index.php">Crime Act Solutions</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item active"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Attorneys</a></li>
+	          <li class="nav-item active"><a href="blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -55,35 +56,72 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Lawyer Dashboard</h1>
+            <h1 class="mb-3 bread">Record the description </h1>
           </div>
         </div>
       </div>
     </section>
 
    	
-    <section class="ftco-section bg-light">
-    	<div class="container">
-        <div class="row d-flex justify-content-center">
-        	<div class="col-md-4 col-lg-3 text-center">
-        		<div class="practice-area bg-white ftco-animate p-4">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-family"></span>
-        			</div>
-        			<h3 class="mb-3"><a href="profile.html">Profile</a></h3>
-        		</div>
-        	</div>
-        	<div class="col-md-4 col-lg-3 text-center">
-        		<div class="practice-area bg-white ftco-animate p-4">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-auction"></span>
-        			</div>
-        			<h3 class="mb-3"><a href="search.html">Search for cases</a></h3>
-        		</div>
-        	</div>
+         <div class="s013">
+<script>
+	var recognition = new webkitSpeechRecognition();
+	recognition.continuous = true;
+	//recognition.interimResults = true;
+	function start(){
+		recognition.onresult = function(event) { 
+			console.log(event);
+			var output = document.getElementById("output");
+			output.innerHTML = "";
+			for(var i=0; i<event.results.length; i++){
+				output.innerHTML = output.innerHTML + event.results[i][0].transcript;
+			}
+		}
+		recognition.start();
+	}
+</script>
+
+</head>
+<body>
+	
+    <div class="MyClass">
+      <form>
+
+        <div class="inner-form">
+          <div class="left">
+  
+          </div>
         </div>
-    	</div>
-    </section>
+      </form>
+		<center><input id = "bStart" type = "button" class="btn btn-success" value = "Start / Stop" onclick = "start();"></input></center>
+		
+		<form>
+		 <fieldset>
+
+        </fieldset>
+		</form>
+		
+		<textarea class="output" id = "output" rows="4" cols="200">
+		
+		</textarea>
+
+	</div>
+	
+</body>
+    </div>
+	<script src="js/extention/choices.js"></script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
+	
+	<html>
+
+</html>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -98,6 +136,7 @@
         </div>
       </div>
     </footer>
+    
     
   
 

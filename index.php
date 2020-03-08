@@ -31,18 +31,18 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Crime Act Solutions</a>
+	      <a class="navbar-brand" href="index.php">Crime Act Solutions</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Categories of Crimes</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -58,8 +58,8 @@
             <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             	<span>Experience</span> . <span>Innovation</span> . <span>Excellence</span>
             </h1>
-            <p><a href="Login.html" class="btn btn-primary py-3 px-5">SignIn</a></p>
-			<p><a href="Register.html" class="btn btn-primary py-3 px-5">SignUp</a></p>
+            <p><a href="Login.php" class="btn btn-primary py-3 px-5">SignIn</a></p>
+			<p><a href="Register.php" class="btn btn-primary py-3 px-5">SignUp</a></p>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Practice Areas</h2>
+            <h2 class="mb-4">Services</h2>
           </div>
         </div>
         <div class="row d-flex justify-content-center">
@@ -190,11 +190,7 @@
         	</div>
         </div>
     	</div>
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <p><a href="practice-areas.html.]" class="btn btn-primary py-3 px-5">Learn More</a></p>
-          </div>
-        </div>
+			
     </section>
 
     <section class="ftco-section bg-secondary">
@@ -210,20 +206,19 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_1.jpg);">
 	                <div class="box">
-	                  <h2>Richard Anderson</h2>
-	                  <p>Civil Lawyer</p>
+	                  <h2>Report Rape</h2>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+	                  <p>&ldquo;Rape is a type of sexual assault usually involving sexual intercourse or other forms of sexual penetration carried out against a person without that person's consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability or is below the legal age of consent.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/person_1.jpg" alt="">
 	                  </div>
-	                  <div class="name align-self-center">Richard Anderson <span class="position">Civil Lawyer</span></div>
+	                  <div class="name align-self-center">Report Rape </div>
 	                </div>
 	              </div>
 	            </div>
@@ -234,20 +229,19 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_2.jpg);">
 	                <div class="box">
-	                  <h2>Jefford Maxillin</h2>
-	                  <p>Business Lawyer</p>
+	                  <h2>Farm Attacks</h2>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+	                  <p>&ldquo;The term Farm murders can refer to: South African farm attacks, a term used in South African social discourse to refer to the murder of farmers since 1994.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/person_2.jpg" alt="">
 	                  </div>
-	                  <div class="name align-self-center">Jefford Maxillin<span class="position">Business Lawyer</span></div>
+	                  <div class="name align-self-center">Farm Attackss</div>
 	                </div>
 	              </div>
 	            </div>
@@ -258,20 +252,19 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_3.jpg);">
 	                <div class="box">
-	                  <h2>Carlos Obing</h2>
-	                  <p>Criminal Defense</p>
+	                  <h2>Kidnaping</h2>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+	                  <p>&ldquo;kidnapping is the unlawful transportation, asportation and confinement of a person against their will. Thus, it is a composite crime. It can also be defined as false imprisonment by means of abduction, both of which are separate crimes that when committed simultaneously upon the same person merge as the single crime of kidnapping. The asportation/abduction element is typically but not necessarily conducted by means of force or fear.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/person_3.jpg" alt="">
 	                  </div>
-	                  <div class="name align-self-center">Carlos Obing <span class="position">Criminal Defense</span></div>
+	                  <div class="name align-self-center"> <span class="position">Kidnapping</span></div>
 	                </div>
 	              </div>
 	            </div>
@@ -282,20 +275,19 @@
 	            <div class="flipper">
 	              <div class="front" style="background-image: url(/images/person_4.jpg);">
 	                <div class="box">
-	                  <h2>Nathan Smith</h2>
-	                  <p>Insurance Lawyer</p>
+	                  <h2>Car hijackings</h2>
 	                </div>
 	              </div>
 	              <div class="back">
 	                <!-- back content -->
 	                <blockquote>
-	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+	                  <p>&ldquo;Carjacking is a robbery in which the item taken over is a motor vehicle.&rdquo;</p>
 	                </blockquote>
 	                <div class="author d-flex">
 	                  <div class="image mr-3 align-self-center">
 	                    <img src="images/person_4.jpg" alt="">
 	                  </div>
-	                  <div class="name align-self-center">Nathan Smith <span class="position">Insurance Lawyer</span></div>
+	                  <div class="name align-self-center">Nathan Smith</div>
 	                </div>
 	              </div>
 	            </div>
@@ -306,7 +298,7 @@
     	</div>
 		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <p><a href="#" class="btn btn-primary py-3 px-5">View More</a></p>
+            <p><a href="attorneys.php" class="btn btn-primary py-3 px-5">View More</a></p>
           </div>
         </div>
     </section>

@@ -26,25 +26,24 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-	<link href="css/main1.css" rel="stylesheet" />
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Crime Act Solutions</a>
+	      <a class="navbar-brand" href="index.php">Crime Act Solutions</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+	          <li class="nav-item active"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Categories of Crimes</a></li>
+	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,59 +55,35 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Find your case</h1>
+            <h1 class="mb-3 bread">Lawyer Dashboard</h1>
           </div>
         </div>
       </div>
     </section>
 
    	
-         <div class="s013">
-      <form>
-        <fieldset>
-          <legend>Quick Find Case</legend>
-        </fieldset>
-        <div class="inner-form">
-          <div class="left">
-            <div class="input-wrap first">
-              <div class="input-field first">
-                <label>CASE</label>
-                <input type="text" placeholder="ex: murder, rape, child abuse, kidnapping" />
-              </div>
-            </div>
-            <div class="input-wrap second">
-              <div class="input-field second">
-                <label>LOCATION</label>
-                <div class="input-select">
-                  <select data-trigger="" name="choices-single-defaul">
-                    <option placeholder="">Choose Here</option>
-                    <option>Earsten Cape</option>
-                    <option>Free State</option>
-                    <option>KwaZulu-Natal</option>
-					<option>Limpopo</option>
-                    <option>Mpumalanga</option>
-                    <option>Northen Cape</option>
-					<option>North West</option>
-                    <option>Westren Cape</option>
-                    <option>Gauteng</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="btn-search" type="button">SEARCH</button>
+    <section class="ftco-section bg-light">
+    	<div class="container">
+        <div class="row d-flex justify-content-center">
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-family"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="profile.php">Profile</a></h3>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-auction"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="search.php">Search for cases</a></h3>
+        		</div>
+        	</div>
         </div>
-      </form>
-    </div>
-	<script src="js/extention/choices.js"></script>
-    <script>
-      const choices = new Choices('[data-trigger]',
-      {
-        searchEnabled: false,
-        itemSelectText: '',
-      });
-
-    </script>
+    	</div>
+    </section>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -123,7 +98,6 @@
         </div>
       </div>
     </footer>
-    
     
   
 

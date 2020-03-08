@@ -32,19 +32,19 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Crime Act Solutions</a>
+	      <a class="navbar-brand" href="index.php">Crime Act Solutions</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+	          <li class="nav-item"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Categories of Crimes</a></li>
+	          <li class="nav-item active"><a href="blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,7 +56,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Record the description </h1>
+            <h1 class="mb-3 bread">Find your case</h1>
           </div>
         </div>
       </div>
@@ -64,50 +64,41 @@
 
    	
          <div class="s013">
-<script>
-	var recognition = new webkitSpeechRecognition();
-	recognition.continuous = true;
-	//recognition.interimResults = true;
-	function start(){
-		recognition.onresult = function(event) { 
-			console.log(event);
-			var output = document.getElementById("output");
-			output.innerHTML = "";
-			for(var i=0; i<event.results.length; i++){
-				output.innerHTML = output.innerHTML + event.results[i][0].transcript;
-			}
-		}
-		recognition.start();
-	}
-</script>
-
-</head>
-<body>
-	
-    <div class="MyClass">
       <form>
-
+        <fieldset>
+          <legend>Quick Find Case</legend>
+        </fieldset>
         <div class="inner-form">
           <div class="left">
-  
+            <div class="input-wrap first">
+              <div class="input-field first">
+                <label>CASE</label>
+                <input type="text" placeholder="ex: murder, rape, child abuse, kidnapping" />
+              </div>
+            </div>
+            <div class="input-wrap second">
+              <div class="input-field second">
+                <label>LOCATION</label>
+                <div class="input-select">
+                  <select data-trigger="" name="choices-single-defaul">
+                    <option placeholder="">Choose Here</option>
+                    <option>Earsten Cape</option>
+                    <option>Free State</option>
+                    <option>KwaZulu-Natal</option>
+					<option>Limpopo</option>
+                    <option>Mpumalanga</option>
+                    <option>Northen Cape</option>
+					<option>North West</option>
+                    <option>Westren Cape</option>
+                    <option>Gauteng</option>
+                  </select>
+                </div>
+              </div>
+            </div>
           </div>
+          <button class="btn-search" type="button">SEARCH</button>
         </div>
       </form>
-		<center><input id = "bStart" type = "button" class="btn btn-success" value = "Start / Stop" onclick = "start();"></input></center>
-		
-		<form>
-		 <fieldset>
-
-        </fieldset>
-		</form>
-		
-		<textarea class="output" id = "output" rows="4" cols="200">
-		
-		</textarea>
-
-	</div>
-	
-</body>
     </div>
 	<script src="js/extention/choices.js"></script>
     <script>
@@ -118,10 +109,6 @@
       });
 
     </script>
-	
-	<html>
-
-</html>
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">

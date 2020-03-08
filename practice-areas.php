@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Whisper - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Court Act Solution</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,19 +31,19 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Whisper</a>
+	      <a class="navbar-brand" href="index.php">Court Act Solutions</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+	          <li class="nav-item active"><a href="practice-areas.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="attorneys.php" class="nav-link">Categories of Crimes</a></li>
+	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -55,62 +55,160 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">Services</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
 
    	
-    <section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-12 mb-4">
-            <h2 class="h3">Contact Information</h2>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+    <section class="ftco-section bg-light">
+    	<div class="container">
+        <div class="row d-flex justify-content-center">
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-family"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Family Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-auction"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Business Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-shield"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Insurance Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-handcuffs"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Criminal Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-house"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Property Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-employee"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Employment Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-fire"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Fire Accident</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-money"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Financial Law</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-medicine"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Drug Offenses</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        	<div class="col-md-4 col-lg-3 text-center">
+        		<div class="practice-area bg-white ftco-animate p-4">
+        			<div class="icon d-flex justify-content-center align-items-center">
+        				<span class="flaticon-handcuffs"></span>
+        			</div>
+        			<h3 class="mb-3"><a href="practice-single.php">Sexual Offenses</a></h3>
+        			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        		</div>
+        	</div>
+        </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row block-9">
-          <div class="col-lg-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-5 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          
-          </div>
-
-          <div class="col-lg-6 d-flex">
-          	<div id="map" class="bg-white"></div>
-          </div>
-        </div>
-      </div>
+    	</div>
     </section>
+
+    <section class="ftco-consultation">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+    			<div class="half order-md-last mt-md-0 d-flex justify-content-center align-items-center img" style="background-image: url(images/justice.jpg);">
+    				<div class="overlay"></div>
+    				<div class="desc text-center">
+    					<div class="icon"><span class="flaticon-auction"></span></div>
+    					<h1><a href="index.php">Court Act Solutions<br><span>Law Firm Website</span></a></h1>
+    				</div>
+    			</div>
+    			<div class="half p-3 p-md-5 ftco-animate">
+    				<h3 class="mb-4 font-weight-bold">Free Consultation</h3>
+    				<form action="#">
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Name">
+	            </div>
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Email">
+	            </div>
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Subject">
+	            </div>
+	            <div class="form-group">
+	              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+	            </div>
+	            <div class="form-group">
+	              <input type="submit" value="Send message" class="btn btn-primary">
+	            </div>
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
 
     <section class="ftco-section-parallax bg-secondary">
       <div class="parallax-img d-flex align-items-center">
@@ -140,7 +238,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Whisper</h2>
+              <h2 class="ftco-heading-2">Court Act Solutions</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -151,7 +249,7 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Practice Areas</h2>
+              <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Family Law</a></li>
                 <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Business Law</a></li>

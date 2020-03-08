@@ -6072,7 +6072,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* eslint-disable */
 	(function () {
 	  // Production steps of ECMA-262, Edition 6, 22.1.2.1
-	  // Reference: https://people.mozilla.org/~jorendorff/es6-draft.html#sec-array.from
+	  // Reference: https://people.mozilla.org/~jorendorff/es6-draft.php#sec-array.from
 	  if (!Array.from) {
 	    Array.from = function () {
 	      var toStr = Object.prototype.toString;
