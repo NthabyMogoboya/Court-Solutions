@@ -13,19 +13,21 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Cout Act Solution</title>
 </head>
-<body style= "background-image: url('pictures/images.jfif');" >
+<body style= "background-image: url('images/bg_1.jpg');" >
 <div class="d-flex" id="wrapper">
 
 <!-- Sidebar -->
 <div class=" border-right" id="sidebar-wrapper">
-  <div class="sidebar-heading"><h3>Crime Acts Solution</h></div>
+  <br>
+  <div class="sidebar-heading"><h3 style="color:white;">Crime Acts Solution</h></div>
+    
   <div class="list-group list-group-flush">
-    <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
-    <a href="crime.php" class="list-group-item list-group-item-action">Report Crime</a>
-    <a href="#" class="list-group-item list-group-item-action">Profile</a>
-    <a href="#" class="list-group-item list-group-item-action">Status</a>
+    <a href="victim_dashboard.html" class="list-group-item list-group-item-action">Dashboard</a>
+    <a href="reportcrime.html" class="list-group-item list-group-item-action">Report Crime</a>
+    <a href="victimprofile.html" class="list-group-item list-group-item-action">Profile</a>
+    <a href="msg.html" class="list-group-item list-group-item-action">Notifications</a>
   </div>
 </div>
 <!-- /#sidebar-wrapper -->
@@ -43,37 +45,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="index.html">Log Out</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </nav>
 
   <div class="container-fluid">
-    <br>
+    
       <main role="main" class="container">
-      <h4>Personal Information | <!--? php            $visitor = $_SESSION['username'];
+      <h4 style="text-align: center; color:white; font-size: 30px;">Personal Information | <!--? php            $visitor = $_SESSION['username'];
            if ($user == $visitor)
-{ ?-->            <a href="edit-profile.php">Edit Profile</a> </h4>
-      <table>              
-                    <div class="container">
+{ ?-->            <a href="edit-profile.html">Edit Profile</a> </h4>
+<strong><table>              
+                    <div >
   <div class="row">
     <div class="col-*-*">
-    <tr><td>Name:</td><td></td>   
+    <tr><td style="font-size: 25px; color: white; ">Name:</td><td></td>   
                     </tr>
                     
     </div>
@@ -82,7 +74,7 @@
   <div class="row">
 
     <div class="col-*-*"><tr>                
-                     <td>ID No:</td><td></td> 
+                     <td style="font-size: 25px; color: white; ">ID No:</td><td></td> 
                     </tr> 
                     </div>
     <div class="col-*-*"></div>
@@ -91,7 +83,7 @@
   <div class="row">
 
     <div class="col-*-*"><tr>
-                      <td>Gender:</td><td></td>
+                      <td style="font-size: 25px; color: white; ">Gender:</td><td></td>
                     </tr>
                     
                     <br></div>
@@ -101,7 +93,7 @@
   <div class="row">
 
     <div class="col-*-*"><tr>
-                      <td>City:</td><td><!--?php echo $profile_data['address'] ?--></td> 
+                      <td style="font-size: 25px; color: white; ">City:</td><td><!--?php echo $profile_data['address'] ?--></td> 
                     </tr>
                    
                    </div>
@@ -111,7 +103,7 @@
   <div class="row">
 
     <div class="col-*-*"> <tr>                
-                     <td>E-mail:</td><td></td>  
+                     <td style="font-size: 25px; color: white; ">E-mail:</td><td></td>  
                      <tr> 
                        </div>
     <div class="col-*-*"></div>
@@ -119,7 +111,7 @@
 
   <div class="row">
 
-    <div class="col-*-*"><tr><td>Phone Number:</td></tr>  
+    <div class="col-*-*"><tr><td style="font-size: 25px; color: white; ">Phone Number:</td></tr>  
                    
                       </div>
     <div class="col-*-*"></div>
@@ -128,7 +120,7 @@
   
 </div>
 
-        </table> 
+        </table> </strong>
        
     </main>
   </div>

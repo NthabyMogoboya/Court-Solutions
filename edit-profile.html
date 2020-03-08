@@ -13,27 +13,29 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Court Act Solution</title>
 </head>
-<body style= "background-color:grey;" >
+<body style= "background-color:grey; background-image: url('images/bg_1.jpg');" >
 <div class="d-flex" id="wrapper">
 
 <!-- Sidebar -->
 <div class=" border-right" id="sidebar-wrapper">
-  <div class="sidebar-heading"><h4>Crime Acts Solution</h4></div>
+  <br>
+  <div class="sidebar-heading"><h4 style="font-size: 25px; color: white;">Crime Acts Solution</h4></div>
   <div class="list-group list-group-flush">
-    <a href="victim_dashboard.php" class="list-group-item list-group-item-action">Dashboard</a>
-    <a href="crime.php" class="list-group-item list-group-item-action">Report Crime</a>
-   <a href="/victimprofile.php" class="list-group-item list-group-item-action">Profile</a>
-    <a href="#" class="list-group-item list-group-item-action">Status</a>
+    <a href="victim_dashboard.html" class="list-group-item list-group-item-action">Dashboard</a>
+    <a href="reportcrime.html" class="list-group-item list-group-item-action">Report Crime</a>
+   <a href="victimprofile.html" class="list-group-item list-group-item-action">Profile</a>
+    <a href="msg.html" class="list-group-item list-group-item-action">Notificationa</a>
   </div>
 </div>
+<br>
 <!-- /#sidebar-wrapper -->
 
 <!-- Page Content -->
 <div id="page-content-wrapper">
 
-    <nav class="navbar navbar-expand-lg nav border-bottom">
+    <nav style="text-align: left;">
       <!-- <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button> -->
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,22 +45,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="index.html">Log Out</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </nav>
@@ -67,23 +59,23 @@
     <div class="container-fluid">
      <br>
       <main role="main" class="container">        
-        <h3>Update Profile Information</h3> 
-         <form method="post" action="update-profile-action.php?user=<?php echo $user_data['username'] ?>">     
-               <label>Name:</label><br> 
+        <h3 style="font-size: 30px; color: white;">Update Profile Information</h3> 
+        <strong><form method="post" action="update-profile-action.php?user=<?php echo $user_data['username'] ?>">     
+            <label style="font-size: 25px; color: white;">Name:</label><br> 
           <input type="text" name="fullname" value=" " /><br> 
-          <label>Age:</label><br>
+          <label style="font-size: 25px; color: white;">Age:</label><br>
           <input type="text" name="age" value=" " /><br> 
-          <label>Gender:</label><br> 
+          <label style="font-size: 25px; color: white;">Gender:</label><br> 
           <input type="text" name="gender" value=" " /><br>
-          <label>Address:</label><br>          
+          <label style="font-size: 25px; color: white;">Address:</label><br>          
           <input type="text" name="address" value=" " /><br><br>  
 
           
 
-          <a class="btn btn-lg btn-primary" href="victimprofile.php" role="button">Update Profil»</a>
+          <a class="btn btn-lg btn-primary" href="victimprofile.html" role="button">Update Profile</a>
           
      </div> 
 </div>          
-       </form> 
+       </form> </strong>
 </div>    
 </html> 
